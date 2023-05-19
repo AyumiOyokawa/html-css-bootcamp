@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    height: 500px;
+}
+
+img {
+    width: 300px;
+    height: 100%;
+}
+
+#img2 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.card1, div.card2 {
+    box-shadow: -1px 5px 10px -5px gray;
+}
+
+div.card1 {
+    float: left;
+}
+
+div.card2 {
+    float: left;
+    margin-left: 25px;
+}
+
+p {
+    padding-left: 20px;   
+}
+
+#profile {
+    font-weight: bold;
+}
+
+
+
+.parent {
+    width: 250px;
+    height: 150px;
+    border: 2px solid green;
+    position: relative;
+    left: 50%;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    right: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.child-2 {
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    right: 50%;
+    position: absolute;
+    z-index: 2;
+}

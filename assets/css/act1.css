@@ -1,0 +1,37 @@
+table {
+    border: 2px solid black;
+    font-family: sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 100%;
+}
+
+thead {
+    color: white;
+    background-color: rgba(236, 107, 110, 0.8);
+    height: 50px;
+}
+
+tr {
+    height: 50px;
+}
+#row1, #row3, #row5 {
+    background-color: rgba(238, 146, 9, 0.396);
+}
+
+#row2, #row4 {
+    background-color: white;
+}
+#email {
+    color: blue;
+}
+
+#address {
+    text-transform: uppercase;
+}
+
+img#silhouette {
+    width: 30px;
+    height: 35px;
+}
